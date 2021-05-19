@@ -1,0 +1,31 @@
+.site-page-header {
+  background-color: #fff;
+}
+
+.layout {
+  min-height: 100vh;
+}
+
+.message-card {
+  margin: 30px 0;
+}
+
+.message-card-user {
+  text-align: right;
+}
+
+.message {
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 17px;
+}
+
+.message-user {
+  background-color: #bae7ff;
+}
+
+.message-partner {
+  background-color: #d9d9d9;
+}
+
+/* margin left auto, text-align left */
