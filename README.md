@@ -1,15 +1,16 @@
 # Messenger Clone
-
 ![](https://i.imgur.com/7Ak0KEW.jpg)
+
+## 📝 Description
 
 A very minimalistic chat app
 
-Tech Stack:
-
+## 💻 Stack
 - React
 - TypeScript
 - Firebase
 - Ant Design
 
-## Demo
+## 🌎 Demo
+
 https://messenger-2021.netlify.app/
