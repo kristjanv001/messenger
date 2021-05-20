@@ -1,4 +1,4 @@
-# Messenger Clone
+# Messenger
 ![](https://i.imgur.com/7Ak0KEW.jpg)
 
 ## 📝 Description
