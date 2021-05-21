@@ -2,12 +2,12 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 firebase.initializeApp({
-  apiKey: "AIzaSyA6lP0BztvHEeH4uCGyMRZy4bkZyCJfHZA",
-  authDomain: "facebook-messenger-clone-613bc.firebaseapp.com",
-  projectId: "facebook-messenger-clone-613bc",
-  storageBucket: "facebook-messenger-clone-613bc.appspot.com",
-  messagingSenderId: "839192294808",
-  appId: "1:839192294808:web:ca564d23618ac7e03527ed",
+  apiKey: process.env.REACT_APP_APIKEY,
+  authDomain: process.env.REACT_APP_AUTHDOMAIN,
+  projectId: process.env.REACT_APP_PID,
+  storageBucket: process.env.REACT_APP_SB,
+  messagingSenderId: process.env.REACT_APP_MSID,
+  appId: process.env.REACT_APP_APPID,
 });
 
 export const db = firebase.firestore();
