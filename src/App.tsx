@@ -45,7 +45,7 @@ export const App: FC = () => {
       <Layout className="layout">
         <Header className="site-page-header">
           <div className="logo" />
-          <h1>Messenger</h1>
+          <h1>💬 Messenger</h1>
         </Header>
         <Content style={{ padding: '0 50px' }}>
           <Breadcrumb style={{ margin: '16px 0' }}>
