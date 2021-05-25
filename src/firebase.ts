@@ -10,6 +10,4 @@ firebase.initializeApp({
   appId: process.env.REACT_APP_APPID,
 });
 
-firebase.firestore().settings({ experimentalForceLongPolling: true });
-
 export const db = firebase.firestore();
